@@ -1,6 +1,6 @@
 .sticky{
     background-color: rgb(184, 184, 180);
-
+    border-left: 8px solid green;
 }
 .btnn{
     background-color: black;
