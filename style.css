@@ -1,0 +1,27 @@
+.sticky{
+    background-color: rgb(184, 184, 180);
+
+}
+.btnn{
+    background-color: black;
+    color:white;
+}
+.btn{
+    background-color: blue;
+    border-radius: .20em;
+}
+.tbn{
+    background-color:black;
+}
+.tbf{
+    background-color:rgb(224, 224, 26);
+}
+div.head{
+    text-align: center;
+    background-color: skyblue;
+}
+fieldset{
+    margin: none;
+    padding: none;
+    background-color: rgb(102, 86, 86);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ekhtear Ahmed Fahim</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <fieldset>
+        <div class="head">
+        <h1>ABC Management System</h1>
+        <h3>We create future</h3></div>
+        <table class="tbn">
+        <tr>
+            <td>
+            <form><button type="submit" formaction="home.html" class="btnn">Home</button></form></td>
+            <td><form><button type="submit" formaction="about.html" class="btnn">About Us</button></form></td>
+            <td><form><button type="submit" formaction="shop.html" class="btnn">Shop</button></form></td>
+        </tr>
+    </table>
+        <h2 class="sticky">Registration Form</h2>
+        <hr>
+        <form>
+            <table class="tbf">
+                <tr>
+                    <td><label for="fname">First Name:</label></td>
+                <td><input type="text" name="first_name"  placeholder="Enter your first name" minlength="5" required id="fname"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name:</label></td>
+                <td><input type="text" name="last_name" placeholder="Enter your Last Name" minlength="5" required id="lname"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                <td><input type="number" value="18" step="1" placeholder="Enter your age" min="18" max="99" maxlength="2" required id="age"><br></td>
+                </tr><tr>
+                <td><label>Designation:</label></td><td>
+                <input type="radio" name="job">Junior Programmer 
+                <input type="radio" name="job">Senior Programmer
+                <input type="radio" name="job" checked>Project Lead
+                <br></td></tr><tr>
+                <td><label>Preffered language:</label></td><td>
+                <input type="checkbox" name="pl">JAVA
+                <input type="checkbox" name="pl">PHP
+                <input type="checkbox" name="pl">C+
+                <br></td></tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                <td><input type="email" placeholder="Enter your email" autocomplete="on" id=email required><br></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password:</label></td>
+                    <td><input type="password" placeholder="Enter a valid Password" minlength="8" maxlength="32" required id="pass"><br></td>
+                </tr>
+                <tr>
+                <td><label>Please choose a file:</label></td>
+                <td><input type="file" multiple placeholder="Choose file" required><br></td>
+                </tr>
+                <td><label for="submit"></label>
+                <input type="submit" value="Submit" placeholder="Submit" id="submit" class="btn"><label for="reset"></label>
+                <input type="reset" value="Reset" placeholder="Reset" id="reset" class="btn"></td>
+                </table>
+                
+                <br>
+                <br>
+                <br>         
+        </form>
+    </fieldset>
+    </body>
+</html>
